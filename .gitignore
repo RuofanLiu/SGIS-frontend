@@ -5,3 +5,7 @@ dist
 bower_components
 *.swp
 config/config.json
+
+# Vagrant stuff
+.vagrant
+*.log
