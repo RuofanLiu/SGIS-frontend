@@ -10,6 +10,7 @@
         </span>
       </div>
     </form> 
+
     <div class="collapse" id="circlePanel">
       <div class="list-group-item">
         Draw a circle with a radius of:
@@ -30,6 +31,8 @@
     </div>
   </div>
 
+          <!-- /btn-add data point -->
+        <input id="text-file" type="file" />	
   <div ng-controller="DatasetListController as datasetListCtrl">
     <a href="#datasetList" class="list-group-item list-group-item-info" data-toggle="collapse" data-parent="#grandparent">Datasets<span class="badge">{{ datasets.length }}</span></a>
     <div class="collapse in" id="datasetList">
